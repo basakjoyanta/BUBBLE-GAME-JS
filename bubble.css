@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.loader{
+  height: 100vh;
+  width: 100%;
+  background-color: #7100a589;
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+}
+.loader h1{
+  font-size: 70px;
+}
+.loader h2{
+  
+  z-index: 99;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 70px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.panel {
+  overflow: hidden;
+  border-radius: 10px;
+  height: 80%;
+  width: 90%;
+  background-color: white;
+}
+.ptop {
+  padding: 0px 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: azure;
+  height: 100px;
+  width: 100%;
+  background-color: blueviolet;
+}
+.element {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.box {
+  /* width:170px; */
+  padding: 10px 40px;
+  background-color: beige;
+  color:black;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pbotom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(0, 255, 255);
+    gap:10px;
+    width:100%;
+    height:calc(100% -100px);
+    padding:20px;
+}
+.bubble{
+    width:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    background-color: aquamarine;
+    color:#00a532;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.bubble:hover{
+    background-color: #316c42;
+    cursor: pointer;
+}
+
+/* Your existing CSS styles */
+
+/* Responsive Styles for OnePlus Screen (e.g., OnePlus 8T) */
+
+  
+
+
